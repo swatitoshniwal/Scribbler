@@ -30,3 +30,16 @@ ScribbleDiv{
     background-color: blue;
     color: azure;
 }
+
+.FormClass input {
+    background-color: #f1f1f1;
+    width: -webkit-fill-available;
+    border: antiquewhite;
+    border-radius: 0%;
+}
+.FormClass textarea {
+    background-color: #f1f1f1;
+    width: -webkit-fill-available;
+    border: antiquewhite;
+    border-radius: 0%;
+}
