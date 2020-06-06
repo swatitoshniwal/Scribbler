@@ -1,0 +1,32 @@
+header {
+    padding: 10px;
+}
+
+ScribbleDiv{
+    display: flex;
+    justify-content: space-between;
+}
+#ScribblerId {
+    color: Blue;
+    margin-block-end: 0;
+    margin-block-start: 0.1em;
+    font-family: 'Montez', cursive;
+    font-size: 45px;
+}
+
+#subheading{
+    font-family: 'Ubuntu Mono';
+    margin-top: 0;
+}
+
+.button {
+    padding: 14px 28px;
+    font-size: 15px;
+    border: 1;
+    justify-content: left;
+    text-align: center;
+}
+.signbutton button{
+    background-color: blue;
+    color: azure;
+}
