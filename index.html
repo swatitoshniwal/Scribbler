@@ -27,7 +27,7 @@
                 </div>
                 <div class="signbutton">
                     <button type="submit" id="SignUp" data-toggle="modal" data-target="#SignUpModal">Sign Up</button>
-                    <button type="submit" id="SignIn" data-toggle="modal" data-target="#SignUpModal">Sign In</button>
+                    <button type="submit" id="SignIn" data-toggle="modal" data-target="#SignInModal">Sign In</button>
                 </div>
             </div>
         </header>
@@ -75,6 +75,41 @@
         </div>
     </div>
 </div>
+
+<!-- Signin Modal -->
+<div class="modal fade" id="SignInModal" tabindex="-1" role="dialog" aria-labelledby="SignInModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="SignInModalLabel">Welcome Back!</h5>
+                <button type="button" class="close fa fa-times" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="FormClass">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Username</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                               placeholder="  Enter your username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                               placeholder="  Enter your password" required>
+                    </div>
+                    <button type="submit" class="ll">Sign In</button>
+                </form>
+                <div class="form-group PlainText">
+                    <p>
+                        <label id="Member">Not a member?</label> <a href="" data-toggle="modal"
+                                                                    data-target="#SignUpModal" data-dismiss="modal"> Sign Up</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
