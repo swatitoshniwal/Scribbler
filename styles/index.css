@@ -16,3 +16,12 @@
     background-color: #cfb53b;
     color: #000;
 }
+
+.btnpara {
+    text-align: center;
+}
+.ButtonCreate .btnpara{
+    border-radius: 0;
+    padding-left: 30px;
+    padding-left: 30px;
+}

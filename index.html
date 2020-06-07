@@ -50,23 +50,23 @@
             <div class="modal-body">
                 <form class="FormClass">
                     <div class="form-group">
-                        <label for="formGroupExampleInput">Name</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput"
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name"
                                placeholder="  Enter your name" required>
                     </div>
                     <div class="form-group">
-                        <label for="formGroupExampleInput2">Username</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username"
                                placeholder="  Enter your username" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1"
+                        <label for="pwd">Password</label>
+                        <input type="password" class="form-control" id="pwd"
                                placeholder="  Enter your password" required>
                     </div>
                     <div class="form-group">
-                        <label for="formGroupExampleInput3">Confirm Password</label>
-                        <input type="password" class="form-control" id="formGroupExampleInput3"
+                        <label for="confirmpwd">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirmpwd"
                                placeholder="  Re-enter your password" required>
                     </div>
                     <button type="submit" class="btn btn-success btn-lg btn-block">Sign Up</button>
@@ -88,16 +88,16 @@
             <div class="modal-body">
                 <form class="FormClass">
                     <div class="form-group">
-                        <label for="formGroupExampleInput2">Username</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                        <label for="username1">Username</label>
+                        <input type="text" class="form-control" id="username1"
                                placeholder="  Enter your username" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1"
+                        <label for="pwd1">Password</label>
+                        <input type="password" class="form-control" id="pwd1"
                                placeholder="  Enter your password" required>
                     </div>
-                    <button type="submit" class="ll">Sign In</button>
+                    <button type="submit" class="btn btn-success btn-lg btn-block">Sign In</button>
                 </form>
                 <div class="form-group PlainText">
                     <p>
@@ -113,10 +113,29 @@
 <!-- Post Modal -->
 <div class="modal fade" id="CreatePostMOdal" tabindex="-1" role="dialog" aria-labelledby="CreatePostMOdalLabel"
      aria-hidden="true">
-    <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="CreatePostModalLabel">Pen Your Post</h5>
-            <button type="button" class="close fa fa-times" data-dismiss="modal" aria-label="Close"></button>
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="CreatePostModalLabel">Pen Your Post</h5>
+                <button type="button" class="close fa fa-times" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="FormClass">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Title</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                           placeholder="Enter title of your post" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Contents</label>
+                        <input type="password" class="form-control" id="exampleFormControlTextarea1"
+                           placeholder="Enter the contents of your post" required>
+                    </div>
+                    <p class="btnpara">
+                        <button type="Create" class="btn btn-success ButtonCreate">CreateButton</button>
+                    </p>
+                </form>
+            </div>
         </div>
     </div>
 </div>
