@@ -37,9 +37,13 @@ body{
     justify-content: space-between;
     margin-bottom: 10px;
 }
-.fa-trash,
-.fa-ellipsis-h {
-    color: #838383;
-    float: right;
-    cursor: pointer;
+
+.post .content-wrapper .title p {
+    margin: 0 10px 0 0;
 }
+.post .content-wrapper .content {
+    line-height: 1.2em;
+    height: 3.6em;
+    overflow: hidden;
+}
+
