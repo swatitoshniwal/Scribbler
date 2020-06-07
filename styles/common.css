@@ -2,7 +2,7 @@ header {
     padding: 10px;
 }
 
-ScribbleDiv{
+.ScribbleDiv{
     display: flex;
     justify-content: space-between;
 }
@@ -15,14 +15,14 @@ ScribbleDiv{
 }
 
 #subheading{
-    font-family: 'Ubuntu Mono';
+    font-family: 'Ubuntu Mono', monospace;
     margin-top: 0;
 }
 
 .button {
     padding: 14px 28px;
     font-size: 15px;
-    border: 1;
+    border: 1px;
     justify-content: left;
     text-align: center;
 }
@@ -33,13 +33,13 @@ ScribbleDiv{
 
 .FormClass input {
     background-color: #f1f1f1;
-    width: -webkit-fill-available;
+    width: -moz-available;
     border: antiquewhite;
-    border-radius: 0%;
+    //border-radius: 0;
 }
 .FormClass textarea {
     background-color: #f1f1f1;
-    width: -webkit-fill-available;
+    width: -moz-available;
     border: antiquewhite;
-    border-radius: 0%;
+    border-radius: 0;
 }
