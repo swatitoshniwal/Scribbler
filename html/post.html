@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <!-- TODO: Include Font Awesome file here -->
+    <!-- Include Font Awesome file -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <!-- Bootstarp 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- TODO: Include Google Fonts file here -->
+    <!-- Include Google Fonts file -->
     <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="../styles/common.css">
@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <!-- TODO: Include code for header here -->
+    <!--code for header-->
     <div class="MainIndexBackground">
         <header>
             <div class="ScribbleDiv">
@@ -30,24 +30,43 @@
                 </div>
             </div>
         </header>
-        <div class="container">
-            <div class="heading" id="heading">
-                <p>
-                    <h3>Everything you know about 'module' & 'require' in Node.js</h3>
-            </div>
-        </div>
-        <div class="AuthorEdit">
-            <div class="AuthorName">
-                <h4>Srishti Gupta</h4>
-            </div>
-        </div>
-        <div class="EditButton">
-            <button type="submit" class="btn-danger" id="EditButton" >Edit <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                </button>
-            <button type="submit" class="btn-danger" id="SaveButton" >Save <i class="fa fa-floppy-o" aria-hidden="true"></i></button>
-        </div>
-    </div>
 
+        <section>
+            <div class="post-wrapper">
+                <div class="heading" id="heading">
+                    <p>
+                    <h3>
+                        Everything you know about 'module' & 'Require' in Node.js
+                    </h3>
+                    </p>
+                </div>
+                <div class="author">
+                    <div>
+                        <h5>
+                            Srishti Gupta
+                        </h5>
+                    </div>
+                    <button class="btn btn-danger saved btn-common" id="editPost">Edit <i class="fa fa-edit"></i></button>
+                </div>
+                <p class="post-content" id="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis, ipsum non malesuada tincidunt,
+                    mi dui interdum urna, eu sodales ex erat ut neque. Nam vel lacinia ante. Mauris eget pharetra ipsum.
+                    Donec a quam sit amet diam ullamcorper ullamcorper. Aliquam ultricies pulvinar nisi. Mauris vel nibh
+                    ut sapien semper lacinia vitae finibus ante. Integer pulvinar a felis non auctor. Donec id enim justo.
+                    Aenean ipsum nibh, egestas et mattis ac, suscipit a ligula.
+                </p>
+                <div class="like-wrapper">
+                    <button class="btn btn-danger like-button btn-common"><i class="fa fa-thumbs-up"></i>Like</button>
+                    <p id="likeText">Be the first one to like this!</p>
+                </div>
+                <div class="comments-wrapper">
+                    <textarea name="comments" id="commentBox" placeholder="Leave a comment..." required></textarea>
+                    <button class="btn btn-danger comment-button btn-common">Comment</button>
+                    <p class="all-comments-text">All Comments</p>
+                    <div id="commentsWrapper"></div>
+                </div>
+            </div>
+        </section>
 
         <!-- Signup Modal -->
         <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="SignUpModalLabel"
@@ -120,7 +139,13 @@
                 </div>
             </div>
         </div>
-
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/c61476993f.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <script src="../scripts/post.js"></script>
 
 </body>
 
