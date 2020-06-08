@@ -1,0 +1,10 @@
+.heading {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.AuthorEdit {
+    display: flex;
+    justify-content: space-between;
+}
